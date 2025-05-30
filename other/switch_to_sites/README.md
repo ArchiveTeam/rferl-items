@@ -1,0 +1,1 @@
+The project initially bruteforced over all sequential IDs and all sites, to find the site each sequential ID belonged to. Later this was changed to using the sitemaps, from which items like `article:ID:SITE` were created and queued. For this, the existing `article:ID` items were taken out of the existing queues. They are in the files in this directory.
